@@ -1,2 +1,1 @@
-# 00133523_practica3_seccion2
-Laboratorio 3
+¿Puedo diseñar toda mi web usando GRID? Sí, se puede realizar, pero seria un poco mas dificil porque Grid es para darle estructura general a la página web y seria mas dificil si queremos acomodar otra cosa como botones.
