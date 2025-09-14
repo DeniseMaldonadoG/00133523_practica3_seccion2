@@ -9,26 +9,26 @@
 .item-a {
 
     grid-area: header;
-    background-color:var(--blue);
+    background-color: var(--blue);
 
 }
 
 .item-b {
 
     grid-area: main;
-    background-color:var(--pink);
+    background-color: var(--pink);
 }
 
 .item-c {
 
     grid-area: sidebar;
-    background-color:var(--blue);
+    background-color: var(--blue);
 }
 
 .item-d {
 
     grid-area: footer;
-    background-color:var(--green);
+    background-color: var(--green);
 }
 
 .container {

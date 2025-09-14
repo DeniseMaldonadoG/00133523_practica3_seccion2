@@ -1,0 +1,50 @@
+:root {
+
+    --blue: #1e90ff;
+    --white: #ffffff;
+
+}
+
+.shooping-cart {
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--blue);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: var(--white);
+}
+
+.shooping-cart-animate {
+    animation: slideIn 3s ease-in-out;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.btn-pay {
+    width: 10px;
+    height: 40px;
+    background-color: var(--blue);
+    color: var(--white);
+    padding: 10px 5px;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+.btn-pay:hover {
+
+    background-color: var(--white);
+    color: var(--blue);
+    border: 1px solid var(--blue);
+    cursor: pointer;
+    text-transform: uppercase;
+}
